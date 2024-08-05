@@ -4,6 +4,7 @@ mkdir Scripts/
 clear
 echo "Welcome to Fileman Utility"
 echo "==========================================="
+cd
 ls
 read -p "Would you like to create a new directory(y/N): " mknwdir
 if [ "$mknwdir" = "y" ]; then
