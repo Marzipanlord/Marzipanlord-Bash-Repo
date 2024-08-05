@@ -11,7 +11,7 @@ if [ "$mknwdir" = "y" ]; then
 read -p "Enter new directory name: " nwdirnm
 cd
 mkdir $nwdirnm
-sh ~/Scripts/Fileman.sh
+sh ~/Git-Repo/Marzipanlord-Bash-Repo/Fileman.sh
 else
 read -p "Enter the directory you want to go to: " dir
 if [ "$dir" = "q" ]; then
@@ -23,7 +23,7 @@ else
     $opp
     read -p "Any more actions you want to do(y/N): " addactconf
     if [ "$addactconf" = "y" ]; then
-        sh ~/Scripts/Fileman.sh
+        sh ~/Git-Repo/Marzipanlord-Bash-Repo/Fileman.sh
     else
         echo "Goodbye for now"
     fi
